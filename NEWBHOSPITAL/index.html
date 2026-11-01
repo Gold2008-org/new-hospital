@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DE NEW BEGINNING MEDICAL SERVICES</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">DE NEW BEGINNING</a>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#equipment" class="nav-link">Medical Equipment</a></li>
+                    <li><a href="#laboratory" class="nav-link">Laboratory</a></li>
+                    <li><a href="#doctors" class="nav-link">Our Doctors</a></li>
+                    <li><a href="#booking" class="nav-link">Book Now</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>DE NEW BEGINNING<br>MEDICAL SERVICES</h1>
+                    <p>Your Health, Our Priority - Delivering Excellence in Medical Care & Services</p>
+                    <a href="#booking" class="btn btn-primary">Book an Appointment</a>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/doctor-hero.png" alt="Professional Medical Doctor">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="grid">
+                <div class="card">
+                    <i class="fas fa-user-md"></i>
+                    <h3>Medical Consultations</h3>
+                    <p>Expert medical consultations with our experienced healthcare professionals.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-heartbeat"></i>
+                    <h3>Health Checkups</h3>
+                    <p>Comprehensive health screenings and preventive care services.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-procedures"></i>
+                    <h3>Emergency Care</h3>
+                    <p>24/7 emergency medical services with rapid response times.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Medical Equipment Section -->
+    <section id="equipment" class="section">
+        <div class="container">
+            <h2 class="section-title">Medical Equipment</h2>
+            <div class="grid">
+                <div class="card">
+                    <i class="fas fa-wheelchair"></i>
+                    <h3>Mobility Aids</h3>
+                    <p>High-quality wheelchairs, walkers, and mobility assistance devices.</p>
+                    <a href="#booking" class="btn btn-primary">Request Equipment</a>
+                </div>
+                <div class="card">
+                    <i class="fas fa-lungs"></i>
+                    <h3>Respiratory Equipment</h3>
+                    <p>Oxygen concentrators, CPAP machines, and respiratory care devices.</p>
+                    <a href="#booking" class="btn btn-primary">Request Equipment</a>
+                </div>
+                <div class="card">
+                    <i class="fas fa-hospital-user"></i>
+                    <h3>Home Care Equipment</h3>
+                    <p>Hospital beds, patient monitors, and home healthcare supplies.</p>
+                    <a href="#booking" class="btn btn-primary">Request Equipment</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Laboratory Section -->
+    <section id="laboratory" class="section">
+        <div class="container">
+            <h2 class="section-title">Laboratory Services</h2>
+            <div class="grid">
+                <div class="card">
+                    <i class="fas fa-vial"></i>
+                    <h3>Blood Tests</h3>
+                    <p>Comprehensive blood analysis and diagnostics.</p>
+                    <a href="#booking" class="btn btn-primary">Book Test</a>
+                </div>
+                <div class="card">
+                    <i class="fas fa-microscope"></i>
+                    <h3>Diagnostic Tests</h3>
+                    <p>Advanced diagnostic procedures and medical testing.</p>
+                    <a href="#booking" class="btn btn-primary">Book Test</a>
+                </div>
+                <div class="card">
+                    <i class="fas fa-dna"></i>
+                    <h3>Specialized Tests</h3>
+                    <p>Specialized medical tests and health screenings.</p>
+                    <a href="#booking" class="btn btn-primary">Book Test</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="section">
+        <div class="container">
+            <h2 class="section-title">Book Your Service</h2>
+            <form class="booking-form" id="bookingForm">
+                <div class="form-group">
+                    <label for="serviceType">Service Type</label>
+                    <select class="form-control" id="serviceType" required>
+                        <option value="">Select Service Type</option>
+                        <option value="consultation">Medical Consultation</option>
+                        <option value="equipment">Medical Equipment</option>
+                        <option value="laboratory">Laboratory Test</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" class="form-control" id="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="date">Preferred Date</label>
+                    <input type="date" class="form-control" id="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="notes">Additional Notes</label>
+                    <textarea class="form-control" id="notes" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit Booking</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="grid">
+                <div>
+                    <h3>DE NEW BEGINNING</h3>
+                    <p>Your trusted healthcare partner</p>
+                </div>
+                <div>
+                    <h4>Contact Us</h4>
+                    <p>Email: info@denewbeginning.com</p>
+                    <p>Phone: (123) 456-7890</p>
+                </div>
+                <div>
+                    <h4>Hours</h4>
+                    <p>Monday - Friday: 8am - 8pm</p>
+                    <p>Saturday: 9am - 5pm</p>
+                    <p>Sunday: Emergency Only</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
